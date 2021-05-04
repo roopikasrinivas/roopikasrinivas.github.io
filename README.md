@@ -9,7 +9,7 @@ This is the repo for my website [roopikasrinivas.github.io](https://roopikasrini
 
 <!-- ### Check out my profile @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
 <!-- ![Roopika's Github Stats](https://github-readme-stats.vercel.app/api?username=roopikasrinivas)-->
-### Connect with me: [LinkedIn](https://www.linkedin.com/in/roopikasrinivas/) | [Medium](https://medium.com/@roopikasrinivas)
+### Connect with me: [Mail](mailto:roopika.srinivas@gmail.com) | [LinkedIn](https://www.linkedin.com/in/roopikasrinivas/) | [Medium](https://medium.com/@roopikasrinivas)
 
 <br />
  
