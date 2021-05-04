@@ -15,19 +15,11 @@
 
 ### Check out my profile @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
 <!-- ![Roopika's Github Stats](https://github-readme-stats.vercel.app/api?username=roopikasrinivas)-->
-### Connect with me:
-
-[LinkedIn](https://www.linkedin.com/in/roopikasrinivas/) | [Medium](https://medium.com/@roopikasrinivas)
+### Connect with me: [LinkedIn](https://www.linkedin.com/in/roopikasrinivas/) | [Medium](https://medium.com/@roopikasrinivas)
 
 <br />
-
-<div justifyContent="space-between">
  
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/roopikasrinivas/)
- 
-![ViewCount](https://views.whatilearened.today/views/github/roopikasrinivas/roopikasrinivas.github.io.svg)
- 
-</div>
- ---
+
 
 
