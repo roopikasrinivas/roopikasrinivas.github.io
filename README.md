@@ -1,4 +1,3 @@
-# roopikasrinivas.github.io
 <meta name="google-site-verification" content="gza4CwIjYdVqZd1nd2qc_xJQrxcQ4SVABpPv5ReU4zE" />
 
 <h4> Hey there! <img src="https://raw.githubusercontent.com/roopikasrinivas/roopikasrinivas/main/gifs/wave.gif" width="30px"> </h4>
@@ -25,7 +24,7 @@
  
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/roopikasrinivas/)
  
-![ViewCount](https://views.whatilearened.today/views/github/roopikasrinivas/roopikasrinivas.svg)
+![ViewCount](https://views.whatilearened.today/views/github/roopikasrinivas/roopikasrinivas.github.io.svg)
  
 </div>
  ---
