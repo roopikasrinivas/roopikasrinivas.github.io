@@ -13,6 +13,7 @@
 :black_heart:  As an avid trekker, I love spending most of my holidays in the Himalayan mountains.
 <br>
 
+### Check out my profile @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
 <!-- ![Roopika's Github Stats](https://github-readme-stats.vercel.app/api?username=roopikasrinivas)-->
 ### Connect with me:
 
