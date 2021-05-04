@@ -4,12 +4,12 @@
 
 # I'm [Roopika](https://roopikasrinivas.github.io/)
 
-## This is the repo for my website [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
+### This is the repo for my website [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
 
 
 ### Connect with me: [LinkedIn](https://www.linkedin.com/in/roopikasrinivas/) | [Medium](https://medium.com/@roopikasrinivas)
 
-#### You can also write to me roopika.srinivas@gmail.com :) 
+### You can also write to me roopika.srinivas@gmail.com :) 
  
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://github.com/roopikasrinivas/)
 
