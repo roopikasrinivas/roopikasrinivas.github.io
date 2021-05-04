@@ -11,7 +11,7 @@ This is the repo for my website [roopikasrinivas.github.io](https://roopikasrini
 <!-- ![Roopika's Github Stats](https://github-readme-stats.vercel.app/api?username=roopikasrinivas)-->
 ### Connect with me: [LinkedIn](https://www.linkedin.com/in/roopikasrinivas/) | [Medium](https://medium.com/@roopikasrinivas)
 
-## You can also write to me roopika.srinivas@gmail.com :)
+<h2> You can also write to me roopika.srinivas@gmail.com :) </h2>
 
 <br />
  
