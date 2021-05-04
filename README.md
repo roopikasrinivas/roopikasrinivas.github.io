@@ -4,16 +4,10 @@
 
 # I'm [Roopika](https://roopikasrinivas.github.io/)
 <br>
-:dart:  I’m a Full-stack Developer @ SAP Labs. Technical topic lead and Cross team collaboration enabler. 
-<br>
-👀  I code and I help others to collaborate, code and build products.
-<br>
-:books:  Currently pursuing M.Tech in Software Engineering from BITS Pilani. Hold a Bachelor's in Computer Science and Engineering.
-<br>
-:black_heart:  As an avid trekker, I love spending most of my holidays in the Himalayan mountains.
+This is repo build for my website @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
 <br>
 
-### Check out my profile @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
+<!-- ### Check out my profile @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
 <!-- ![Roopika's Github Stats](https://github-readme-stats.vercel.app/api?username=roopikasrinivas)-->
 ### Connect with me: [LinkedIn](https://www.linkedin.com/in/roopikasrinivas/) | [Medium](https://medium.com/@roopikasrinivas)
 
