@@ -4,7 +4,7 @@
 
 # I'm [Roopika](https://roopikasrinivas.github.io/)
 <br>
-This is repo build for my website @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
+This is the repo for my website [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
 <br>
 
 <!-- ### Check out my profile @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
