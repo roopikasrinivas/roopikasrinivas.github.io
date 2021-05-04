@@ -4,14 +4,12 @@
 
 # I'm [Roopika](https://roopikasrinivas.github.io/)
 <br>
-This is the repo for my website [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
+## This is the repo for my website [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
 <br>
 
-<!-- ### Check out my profile @ [roopikasrinivas.github.io](https://roopikasrinivas.github.io/)
-<!-- ![Roopika's Github Stats](https://github-readme-stats.vercel.app/api?username=roopikasrinivas)-->
 ### Connect with me: [LinkedIn](https://www.linkedin.com/in/roopikasrinivas/) | [Medium](https://medium.com/@roopikasrinivas)
 
-<h2> You can also write to me roopika.srinivas@gmail.com :) </h2>
+## You can also write to me roopika.srinivas@gmail.com :) 
 
 <br />
  
