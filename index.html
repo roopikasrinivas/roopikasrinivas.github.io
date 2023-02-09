@@ -1,266 +1,423 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Roopika Srinivas</title>
-        <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
-        <!-- Font Awesome icons (free version)-->
-        <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" crossorigin="anonymous"></script>
-        <!-- Google fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
-        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-        <!-- Navigation-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-            <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">Roopika Srinivas</span>
-                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+<head>
+    <meta content="width=device-width, initial-scale=1" name="viewport"/>
+    <link rel="stylesheet" href="./Assets/CSS/style.css" type="text/css"/>
+
+    <!---------------------------Fonts used in this App------------------------------------------------------>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+    <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet"
+    />
+
+    <!-----------------------------JS text.js extension ---------------------------------------------->
+
+    <script
+            src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"
+            integrity="sha512-BdHyGtczsUoFcEma+MfXc71KJLv/cd+sUsUaYYf2mXpfG/PtBjNXsPo78+rxWjscxUYN2Qr2+DbeGGiJx81ifg=="
+            crossorigin="anonymous"
+    ></script>
+
+    <!-----------------------------Font-awseome ---------------------------------------------->
+
+    <link
+            rel="stylesheet"
+            href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+            integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+            crossorigin="anonymous"
+    />
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!------------------------------WebSite Title ------------------------------------------>
+    <title>Roopika Srinivas</title>
+</head>
+
+<body>
+<!-- navbar -->
+
+<nav id="nav">
+    <div class="navbar__nav">
+        <div class="navbar__container">
+            <div class="navbar__row">
+                <div class="navbar__logo">
+                    <img src="./Assets/img/img_4.png" alt="Roopika Logo"/>
+                </div>
+
+                <div class="navbar__listItem">
+                    <ul>
+                        <li class="item item__active"><a href="#home">Home</a></li>
+                        <li class="item"><a href="#about">About</a></li>
+                        <li class="item"><a href="#experience">Experience</a></li>
+                        <li class="item"><a href="#education">Education</a></li>
+<!--                        <li class="item"><a href="#service">Skills</a></li>-->
+                        <li class="item"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar__listItem--mobile">
+                    <input type="checkbox" id="btnControl"/>
+                    <label class="navbar__barIcon" for="btnControl"
+                    ><i class="fas fa-bars"></i
+                    ></label>
+
+                    <ul class="mobileList">
+                        <li class="mobileItem"><a href="#home">Home</a></li>
+                        <li class="mobileItem"><a href="#about">About</a></li>
+                        <li class="mobileItem"><a href="#experience">Experience</a></li>
+                        <li class="mobileItem"><a href="#education">Education</a></li>
+<!--                        <li class="mobileItem"><a href="#service">What I Do</a></li>-->
+                        <li class="mobileItem"><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="navbar__socialItem">
+                    <ul>
+                        <li class="socialItem">
+                            <a target="_blank" rel="noopener noreferrer"
+                               href="https://www.linkedin.com/in/roopikasrinivas/"
+                            ><i class="fa-brands fa-linkedin"></i></a
+                            ><span class="tooltiptext__fb">LinkedIn</span>
+                        </li>
+                        <li class="socialItem">
+                            <a target="_blank" rel="noopener noreferrer" href="https://github.com/roopikasrinivas"
+                            ><i class="fa-brands fa-github"></i></a
+                            ><span class="tooltiptext__tw">GitHub</span>
+                        </li>
+                        <li class="socialItem">
+                            <a target="_blank" rel="noopener noreferrer" href="https://roopikasrinivas.medium.com/"><i
+                                    class="fa-brands fa-medium"></i></a>
+                            <span class="tooltiptext__tw">Medium</span>
+                        </li>
+                        <li class="socialItem">
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/roooopika"
+                            ><i class="fa-brands fa-instagram"></i></a
+                            ><span class="tooltiptext__dr">Instagram</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</nav>
+
+<!-- Home -->
+<header id="home">
+    <div class="home__Container">
+        <div class="home__bgLayer">
+            <div class="home__Caption">
+                <h3 class="home__intro">Welcome</h3>
+                <h1 class="home__title"></h1>
+                <p class="home__desc">Based in Bengaluru, India</p>
+                <a href="mailto:roopika.srinivas@gmail.com" class="home__button">Hire Me</a>
+                <div class="home__arrow--click">
+                    <a href="#about"><i class="fa-solid fa-chevron-down"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- about -->
+<section id="about">
+    <div class="about__Container">
+        <h2 class="titleBackground">
+            About Me
+            <p class="text__overlap">Know me more</p>
+        </h2>
+        <div class="about__desc">
+            <div class="about__parag">
+                <h2 class="about__title">
+                    I'm <span class="aboutTitle__span">Roopika,</span> a Full Stack Developer
+                </h2>
+                <p class="aboutParag__desc">
+                    A Software Engineer(Full Stack) with 8+ years of experience in developing Cloud and Enterprise
+                    software.
+                    I'm a technical topic lead and cross-team collaboration enabler.
+                    Currently I'm leading the development of applications for Hewlett Packard Enterprise - Partner
+                    Channel division.
+                </p>
+                <p class="aboutParag__desc">
+                    During my past tenure at SAP Labs, I developed software products for SAP Business Technology
+                    Platform,
+                    S/4 Hana, Digital Supply Chain, and Mobile Device Management solutions.
+                </p>
+                <p>
+                    I've recently completed my Masters in Software Engineering from BITS Pilani with a CGPA of 9.55.
+                    My final year dissertation on Microservices was graded excellent. I love to code and learn new
+                    technologies constantly.
+                    I also have expertise in agile programming practices, test-driven development, and scrum activities.
+                </p>
+            </div>
+            <div class="about__table">
+                <ul>
+                    <li class="aboutTable__list"><b>Name:</b> Roopika Srinivas</li>
+                    <li class="aboutTable__list">
+                        <b>Email:</b>
+                        <span class="aboutTable__list--active">roopika.srinivas@gmail.com</span>
+                    </li>
+                    <li class="aboutTable__list">
+                        <b>From:</b> Bengaluru, India
+                    </li>
+                </ul>
+                <a
+                        class="about__button--active"
+                        href="./Assets/RoopikaBS_Resume_2023.pdf"
+                        target="_blank"
+                >Download CV</a>
+            </div>
+        </div>
+        <div class="about__numbers">
+            <div class="number__data">
+                <h4 class="aboutData__number">8+</h4>
+                <p class="aboutData__desc">Years Experience</p>
+            </div>
+            <div class="number__data">
+                <h4 class="aboutData__number">Masters</h4>
+                <p class="aboutData__desc">Software Engineering</p>
+            </div>
+            <div class="number__data">
+                <h4 class="aboutData__number">50+</h4>
+                <p class="aboutData__desc">Projects Done</p>
+            </div>
+            <div class="number__data">
+                <h4 class="aboutData__number">15+</h4>
+                <p class="aboutData__desc">Performance Awards</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Summary -->
+<section id="experience">
+    <div class="summary__Container">
+        <h2 class="titleBackground">
+            Experience
+            <p class="text__overlap">Experience</p>
+        </h2>
+
+        <div class="resume__container">
+            <div class="resume__column">
+                <!--            <h2 class="resume__title">My Experience</h2>-->
+                <div class="resume__card">
+                    <p class="card__year">Oct 2021 - Present</p>
+                    <h3 class="card__title">Technical Lead and Senior Software Engineer</h3>
+                    <p class="card__subtitle">Hewlett Packard Enterprise</p>
+                    <p class="card__desc">
+                        Leading the development of Cloud first - Lean applications for HPE Channel Partner Division.
+                    </p>
+                    <p class="card__desc">
+                        Skills: Microservices, Java, Spring Boot, SQL, Angular, Jenkins, GitHub, JUnit, Kubernetes,
+                        Jenkins, Private Cloud, Linux.
+                    </p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">April 2020 - Sept 2021</p>
+                    <h3 class="card__title">SOFTWARE DEVELOPER 2</h3>
+                    <p class="card__subtitle">SAP Labs</p>
+                    <p class="card__desc">
+                        Worked as a Senior Full Stack Developer, building products for Enterprise and Cloud SaaS.
+                        I developed high transactional volume and analytical based Fiori apps for manufacturing
+                        industries.
+                    </p>
+                    <p class="card__desc">
+                        Skills: Java, Spring Boot, SQL, REST web services, JUnit, JavaScript, AngularJS, jQuery,
+                        Jenkins, Github
+                    </p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">Jun 2020 - Jun 2021</p>
+                    <h3 class="card__title">Scrum Master</h3>
+                    <p class="card__subtitle">SAP Labs</p>
+                    <p class="card__desc">
+                        In my role as a Scrum master along with being a Developer, I helped my team function and cross
+                        collaborate with multiple teams smoothly while following the agile scrum methodology and
+                        principles.
+                    </p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">Apr 2018 - Mar 2020</p>
+                    <h3 class="card__title">Software Developer 1</h3>
+                    <p class="card__subtitle">SAP Labs</p>
+                    <p class="card__desc">
+                        I developed OData and SOAP APIs to help discrete and process manufacturing industries to
+                        integrate with SAP S/4 Hana. These APIs are published on api.sap.com
+                    </p>
+                    <p>
+                        Skills: SOAP, OData, Javascript, HTML, SQL, ABAP</p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">Apr 2017 - Mar 2018</p>
+                    <h3 class="card__title">Developer Associate</h3>
+                    <p class="card__subtitle">SAP Labs</p>
+                    <p class="card__desc">
+                        I was one of the primary developers for Demand-Driven Replenishment solution by SAP. I was
+                        responsible to innovate and deliver new-generation cloud apps for the Demand-Driven Material
+                        Requirement Planning and Execution (DDMRP).
+                    </p>
+                    <p>
+                        Skills: OData, Javascript, HTML, SQL, ABAP</p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">Jul 2014 - Mar 2017</p>
+                    <h3 class="card__title">Quality Associate</h3>
+                    <p class="card__subtitle">SAP Labs</p>
+                    <p class="card__desc">
+                        I developed a Java-Selenium Automation Framework for Mobile device Automation of web app using
+                        Appium, Selenium, Java and JUnit/TestNG.
+                    </p>
+                    <p>
+                        Skills: Java, Selenium, Appium, JUnit </p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">Aug 2013 - Sept 2013</p>
+                    <h3 class="card__title">Data Science Intern</h3>
+                    <p class="card__subtitle">Flutura Decision Sciences & Analytics</p>
+                    <p class="card__desc">
+                        Case study on Flutura Projects.
+                    </p>
+                    <p>
+                        Skills: Python, Machine Learning, Data Analysis
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="button__container">
+            <a class="form__button" href="./Assets/RoopikaBS_Resume_2023.pdf" target="_blank"
+            >Download CV&nbsp<i class="fa-sharp fa-solid fa-download"></i
+            ></a>
+        </div>
+    </div>
+</section>
+<section id="education">
+    <div class="summary__Container">
+        <h2 class="titleBackground">
+            Education
+            <p class="text__overlap">Education</p>
+        </h2>
+
+        <div class="resume__container">
+            <div class="resume__column">
+                <!--                <h2 class="resume__title">My Education</h2>-->
+
+                <div class="resume__card">
+                    <p class="card__year">Dec 2020 - Dec 2022</p>
+                    <h3 class="card__title">M.Tech. Software Engineering | CGPA 9.55</h3>
+                    <p class="card__subtitle">Birla Institute Of Technology And Science, Pilani</p>
+                    <p class="card__desc">
+                        Software Architecture | Data Structure and Algorithms | Object-Oriented Analysis and Design |
+                        DevOps | Cloud Computing
+                    </p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">Sept 2010 - June 2014</p>
+                    <h3 class="card__title">B.E. Computer Science and Engineering | Distinction 85%</h3>
+                    <p class="card__subtitle">University Visvesvaraya College Of Engineering, Bangalore</p>
+                    <p class="card__desc">
+                        Data Structures | Algorithms | Machine Learning | Artificial Intelligence | Computer Networks
+                    </p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">June 2008 - May 2010</p>
+                    <h3 class="card__title">11th and 12th grade | Distinction 86%</h3>
+                    <p class="card__subtitle">St Anne's Pre University College, Bangalore</p>
+                    <p class="card__desc">
+                        Computer Science | Mathematics | Physics | Chemistry
+                    </p>
+                </div>
+                <div class="resume__card">
+                    <p class="card__year">June 2007 - May 2008</p>
+                    <h3 class="card__title">10th Grade | Distinction 95%</h3>
+                    <p class="card__subtitle">Royale Concorde International School, Bangalore</p>
+                    <p class="card__desc">
+                        Mathematics | Pysics | Chemistry | Biology | Social Studies
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="contact">
+    <div class="contact__Container">
+        <h2 class="titleBackground">
+            Contact
+            <p class="text__overlap">Get in Touch</p>
+        </h2>
+
+        <div class="contact__wrap">
+            <div class="contact__data">
+                <h1 class="contactData__title">Contact Me</h1>
+
+                <p class="contact__text last__parag">
+              <span class="address__icon"
+              ><i class="fa-solid fa-envelope"></i
+              ></span>
+                    <a href="mailto:roopika.srinivas@gmail.com" class="aboutTable__list--active"
+                    >Send Mail</a>
+                </p>
+                <h1 class="contactData__title">Follow Me</h1>
+
+                <ul class="follow__icons">
+                    <li class="follow__item">
+                        <span class="tooltiptext__fb">LinkedIn</span>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/roopikasrinivas"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </li>
+                    <li class="follow__item">
+                        <span class="tooltiptext__gh">GitHub</span>
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/roopikasrinivas"><i
+                                class="fa-brands fa-github"></i></a>
+                    </li>
+                    <li class="follow__item">
+                        <span class="tooltiptext__gh">Medium</span>
+                        <a target="_blank" rel="noopener noreferrer" href="https://medium.com/@roopikasrinivas"><i
+                                class="fa-brands fa-medium"></i></a>
+                    </li>
+                    <li class="follow__item">
+                        <span class="tooltiptext__gh">Instagram</span>
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.instagram.com/roooopika/"><i
+                                class="fa-brands fa-instagram"></i></a>
+                    </li>
                 </ul>
             </div>
-        </nav>
-        <!-- Page Content-->
-        <div class="container-fluid p-0">
-            <!-- About-->
-            <section class="resume-section" id="about">
-                <div class="resume-section-content">
-                    <h1 class="mb-0">
-                        Roopika
-                        <span class="text-primary">B S</span>
-                    </h1>
-                    <div class="subheading mb-5">
-                        <a href="mailto:roopika.srinivas@gmail.com">roopika.srinivas@gmail.com</a>
-                    </div>
-                    <p class="lead mb-3">I'm a Senior Software Engineer(Full Stack) with 8+ years of experience in developing Cloud and Enterprise software. I'm a technical topic lead and cross-team collaboration enabler. Currently I'm leading the development of applications for Hewlett Packard Enterprise - Partner Channel division. 
-                       </p>
-                    <p class="lead mb-3">In my past experience, during my tenure of 7 years at SAP, I developed software products for SAP Business Technology Platform, S/4 Hana, Digital Supply Chain, and Mobile Device Management solutions. 
-                       </p>
-                    <p class="lead mb-5">I love to code and learn new technologies constantly. I also have expertise in agile programming practices, test-driven development, and scrum activities. 
-                        Along with my full time job, I've recently completed my Master's in Software Engineering from BITS Pilani under the Work Integrated Learning Program. Subjects of Focus: Software Architecture, Cloud Computing, Data Structures and Algorithms, Object Oriented Analysis and Design.
-                    </p>
-                    <div class="social-icons">
-                        <a class="social-icon" target="_blank" href="https://www.linkedin.com/in/roopikasrinivas/"><i class="fab fa-linkedin-in"></i></a>
-                        <a class="social-icon" target="_blank" href="https://github.com/roopikasrinivas"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" target="_blank" href="https://roopikasrinivas.medium.com/"><i class="fab fa-medium"></i></a>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Experience-->
-            <section class="resume-section" id="experience">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Experience</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Technical Lead</h3>
-                            <div class="subheading mb-3">Hewlett Packard Enterprise</div>
-                            <p>Leading the development of applications in HPE Channel Partner Management Division</p>
-                            <p>
-                                Skills: Microservices, Java, Spring Boot, SQL, REST web services, JUnit, JavaScript, AngularJS, jQuery, Jenkins, Github
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2022 - present</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Software Engineer</h3>
-                            <div class="subheading mb-3">Hewlett Packard Enterprise</div>
-                            <p>Worked as a Senior Full Stack Developer, building products for Enterprise and Cloud SaaS. </p>
-                            <p>
-                                Skills: Java, Spring Boot, SQL, REST web services, JUnit, JavaScript, AngularJS, jQuery, Jenkins, Github
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">October 2021 - present</span></div>
-                    </div>
-                    
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Developer 2</h3>
-                            <div class="subheading mb-3">SAP Labs</div>
-                            <p>As a Full Stack Developer, I worked on the Cloud-based 8D solution for Digital Supply Chain - Quality Management. The solutions aims to bridge the gap between Enterprises, Suppliers and Customers in Supply Chain Management.
-                            </p>
-                            <p>
-                                Skills: Java, Spring Boot, Javascript, SQL, ABAP, UI5, Node.js, Maven, Hana, SQL, Cloud Foundry, SAP BTP
-                            </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2020 - September 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Scrum Master</h3>
-                            <div class="subheading mb-3">SAP Labs</div>
-                            <p>In my role as a Scrum master along with being a Developer, I helped my team function and cross collaborate with multiple teams smoothly while following the agile scrum methodology and principles.</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2020 - June 2021</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Software Developer 1</h3>
-                            <div class="subheading mb-3">SAP Labs</div>
-                            <p>I developed high transactional volume and analytical based Fiori apps for manufacturing industries. The apps use data stored in Hana DB and are built with ABAP, Core Data Services, and OData for the backend and SAPUi5 for the frontend.</p>
-                            <p>I developed OData and SOAP APIs to help discrete and process manufacturing industries to integrate with SAP S/4 Hana. These APIs are published on "api.sap.com"</p>
-                            <p>Skills: SOAP, OData, Javascript, HTML, SQL, ABAP</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2018 - March 2020</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Associate Developer</h3>
-                            <div class="subheading mb-3">SAP Labs</div>
-                            <p>I was one of the primary developers for Demand-Driven Replenishment solution by SAP. I was responsible to innovate and deliver new-generation cloud apps for the Demand-Driven Material Requirement Planning and Execution (DDMRP). </p>
-                            <p>Skills: OData, Javascript, HTML, SQL, ABAP</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">April 2017 - March 2018</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Quality Associate</h3>
-                            <div class="subheading mb-3">SAP Labs</div>
-                            <p>I developed a Java-Selenium Automation Framework for Mobile device Automation of web app using Appium, Selenium, Java and JUnit/TestNG.</p>
-                            <p>Skills: Java, Selenium, Appium, JUnit</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">July 2014 - March 2017</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Data Science Intern</h3>
-                            <div class="subheading mb-3">Flutura Decision Sciences & Analytics</div>
-                            <p>Case study on Flutura Project. Skills: Python, Machine Learning, Data Analysis </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Aug 2013 - Sep 2013</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Education-->
-            <section class="resume-section" id="education">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Birla Institute of Technology and Science, Pilani</h3>
-                            <div class="subheading mb-3">Master of Technology - Software Engineering</div>
-                            <div>Data Structure and Algorithms · Software Architecture · Object Oriented Analysis and Design · Cloud Computing</div>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">Dec 2020 - Dec 2022</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">University Visvesvaraya College of Engineering</h3>
-                            <div class="subheading mb-1">Bachelor of Engineering - Computer Science and Engineering - Distinction · 85%</div>
-                            <p>Data Structures · Algorithms · Machine Learning · Artificial Intelligence · Computer Networks</p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">September 2010 - June 2014</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">St Anne's Pre University College</h3>
-                            <div class="subheading mb-3">11th and 12th grade - Distinction · 86%</div>
-                            <p>Computer Science · Mathematics · Physics · Chemistry </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2008 - May 2010</span></div>
-                    </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between">
-                        <div class="flex-grow-1">
-                            <h3 class="mb-0">Royale Concorde International School</h3>
-                            <div class="subheading mb-3">10th grade - Distinction · 95%</div>
-                            <p>Mathematics · Pysics · Chemistry · Biology · Social Studies </p>
-                        </div>
-                        <div class="flex-shrink-0"><span class="text-primary">June 2007 - May 2008</span></div>
-                    </div>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Skills-->
-            <section class="resume-section" id="skills">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Skills</h2>
-                    <div class="subheading mb-3">Programming Languages & Tools</div>
-                    <ul class="mb-5 list-inline dev-icons">
-                        <li class="list-inline-item"><i class="fab fa-java" title="Java"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-npm"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
-                        <li class="list-inline-item"><i class="fab fa-github"></i></li>
-                    </ul>
-                    <div class="subheading mb-3">Work</div>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cloud first - Full Stack Development
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Application Performance Expert
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Functional Teams
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Agile Development & Scrum
-                        </li>
-                    </ul>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Interests-->
-            <section class="resume-section" id="interests">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Interests</h2>
-                    <p>Apart from being a Software Developer, I love spending my holidays in the Himalayan Mountains. I enjoy trekking and adventure sports. I've been on treks such as Rupin Pass, RoopKund, Brahmatal, Kuari Pass, Kedarkanta and a few other mountains in the Indian Himalayas. </p>
-                    <p class="mb-0">When forced indoors, I read a lot, spend time gardening and watch movies. Sci-fi and comedy are my favorite genres. I work out, meditate, and spend a large amount of my free time honing my programming skills.</p>
-                </div>
-            </section>
-            <hr class="m-0" />
-            <!-- Awards-->
-            <section class="resume-section" id="awards">
-                <div class="resume-section-content">
-                    <h2 class="mb-5">Awards</h2>
-                    <ul class="fa-ul mb-0">
-                        <li class="mb-2">
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <h4>Guiding star @ SAP</h4>
-                            <p> Guiding star award is awarded to a person who guides other team memebrs and helps in upscaling individual team memebrs. </p>
-                        </li>
-                        <li class="mb-2">
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <h4>2 time Peer Awards @ SAP</h4>
-                            <p> Peer award is awarded to a person who has pursued team goals with utmost enthusiasm, has extended warmth to members, helped team members in understanding problems, provided timely solutions, and has displayed command over his/her area of work. </p>
-                        </li>
-                        <li class="mb-2">
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <h4>4 time Vibrant Team Player @ SAP</h4>
-                            <p> This award is given to a person who is an excellent team player and helps in bringing the team together, take initiatives in team bonding/social/fun activities, and creates a warm, friendly and cordial team environment.</p>
-                        </li>
-                    </ul>
-                </div>
-            </section>
+
         </div>
-        <!-- Bootstrap core JS-->
-        <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- Third party plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-    </body>
+    </div>
+</section>
+
+<!-- footer -->
+<footer class="footer__container">
+    <p class="footer__desc">
+        Copyright Â© 2023 <a href="#" class="footer__link">Roopika.</a> All
+        Rights Reserved.
+    </p>
+    <ul class="footer__list">
+        <li class="footer__linkItem">
+            <a>Terms & Policy</a>
+        </li>
+        <li class="footer__linkItem">
+            <a>Disclaimer</a>
+        </li>
+    </ul>
+</footer>
+
+<!-------------------------- JS text.js extension script ----------------------->
+<script>
+    var typing = new Typed(".home__title", {
+        strings: [
+            "I'm Roopika Srinivas",
+            "I'm a Full Stack Developer",
+        ],
+        typeSpeed: 150,
+        backSpeed: 80,
+        loop: true,
+    });
+</script>
+</body>
 </html>
