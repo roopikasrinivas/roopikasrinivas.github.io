@@ -994,7 +994,7 @@ p.last__parag {
   transition: 1s ease-in;
   padding: 0 15px;
   font-size: 40px;
-  /*position: relative;*/
+  position: relative;
 }
 
 .follow__item .tooltiptext__fb,
