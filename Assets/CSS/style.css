@@ -9,7 +9,7 @@
   --mainText__color:#4c4d4d;
   --mainTitle__color:#252b33;
   --secondText__color: #000000;
-          /*#dc3545;*/
+  /*#dc3545;*/
   --button__color:#20c997;
   --home__color:#dee3e4;
   --black__color:#000;
@@ -179,7 +179,7 @@ html {
 
 /*******************************************Home Section*****************************************/
 .home__Container {
-  background-image: url(../img/intro-bg.jpg);
+  background-image: url(../img/background.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -189,7 +189,7 @@ html {
 }
 
 .home__bgLayer {
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: rgba(0, 0, 0, 0.6);
   height: 100%;
 }
 
@@ -224,12 +224,13 @@ html {
   cursor: pointer;
   color: var(--button__color);
   background-color: transparent;
-  border: 2px solid var(--button__color);
+  border: 4px solid var(--button__color);
   padding: 12.8px 41.6px;
   margin: 8px 0;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
   border-radius: 800px;
-  transition: 1s ease;
+  transition: 100ms ease;
 }
 
 .home__button:hover {
@@ -732,7 +733,10 @@ h2.titleBackground {
 /*******************************************Portfolio Section*****************************************/
 #portfolio {
   padding: 72px 0;
+  margin: auto;
+  background-color: #f8f9fa;
 }
+
 
 ul.portfolio__type {
   margin: auto;
@@ -772,6 +776,7 @@ li.item--active a {
   column-count: 3;
   column-gap: 10px;
   margin-top: 40px;
+  margin-bottom: 50px;
 }
 
 .photo__item {
@@ -1156,7 +1161,7 @@ p.last__parag {
   .navbar__listItem {
     display: none;
   }
- 
+
   .navbar__row {
     width: 92%;
   }
@@ -1299,7 +1304,7 @@ p.last__parag {
   .contact__form .contactData__title {
     text-align: center;
   }
-  
+
   .contact__form .contactData__title {
     padding: unset;
   }
@@ -1329,7 +1334,7 @@ p.last__parag {
     margin-top: 0px;
   }
   /*.home__title {
-     font-size: 35px; 
+     font-size: 35px;
   }*/
   .services__card {
     width: 100%;
@@ -1348,7 +1353,7 @@ p.last__parag {
   }
   /*.text__overlap {
      font-size: 25px; */
-  /* font-size: calc(25px + 0.3vw); 
+  /* font-size: calc(25px + 0.3vw);
   }*/
   .portfolio__gallery {
     max-width: 350px;
@@ -1372,4 +1377,9 @@ p.last__parag {
     font-size: 18px;
     text-align: center;
   }
+}
+
+.portfolioPara_Desc {
+  font-size: 18px;
+  margin-bottom: 20px;
 }
